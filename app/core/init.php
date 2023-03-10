@@ -11,4 +11,3 @@ require "database.php";
 require "model.php";
 require "controller.php";
 require "app.php";
-require "statistics.php";
