@@ -4,8 +4,8 @@
 /****
 * app info
 */
-define('APP_NAME', 'NFDI4Chem');
-define('APP_DESC', 'Free and paid tutorials');
+define('APP_NAME', '#');
+define('APP_DESC', '#');
 
 /****
 * database config
@@ -14,22 +14,21 @@ if($_SERVER['SERVER_NAME'] == 'localhost')
 {
 	//database config for local server
 	define('DBHOST', 'localhost');
-	define('DBNAME', 'crud');
-	define('DBUSER', 'root');
+	define('DBNAME', '#');
+	define('DBUSER', '#');
 	define('DBPASS', '');
 	define('DBDRIVER', 'mysql');
 
 	//root path e.g localhost/
-	define('ROOT', 'http://localhost/fuseki/public');
-	define('DASHBOARD', ROOT.'/dashboard/assets');
-	define('YASGUI', ROOT.'http:/localhost/fuseki/node_modules');
+	define('ROOT', 'http://');
+	define('DASHBOARD', ROOT.'#');
 
 }else
 {
 	//database config for live server
 	define('DBHOST', 'localhost');
-	define('DBNAME', 'udemy');
-	define('DBUSER', 'root');
+	define('DBNAME', '#');
+	define('DBUSER', '#');
 	define('DBPASS', '');
 	define('DBDRIVER', 'mysql');
 
